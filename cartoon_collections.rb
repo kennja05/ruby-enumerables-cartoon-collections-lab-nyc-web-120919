@@ -18,6 +18,7 @@ def long_planeteer_calls(array)
 
   array.any? do |element|
   element.length > 4
+  binding.pry 
 end 
 end   
 
